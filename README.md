@@ -16,3 +16,8 @@
 * http://screamingtitans.com/site
 * http://www.screamingtitans.com
 * http://www.screamingtitans.com/site
+
+## misc
+* https://coursetro.com/posts/code/64/How-to-Deploy-an-Angular-App-(Angular-4)
+* https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
+* https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/
