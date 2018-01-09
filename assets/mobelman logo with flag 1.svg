@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="260">
+
+  <rect width="400" height="250" y="10" fill="#006aa7"/>
+  <rect width="50" height="250" x="125" y="10" fill="#fecc00"/>
+  <rect width="400" height="50" y="110" fill="#fecc00"/>
+
+  <text x="440" y="159" fill="#0f0f0f" font-size="175" font-family="sans-serif" font-weight="bold">
+    MÖBELMAN
+  </text>
+
+  <text x="445" y="250" fill="#0f0f0f" font-size="110" font-family="sans-serif, italic" font-style="italic">
+    www.mobelman.com
+  </text>
+
+</svg>
