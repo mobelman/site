@@ -1,0 +1,40 @@
+.logotype {
+  position: relative;
+  border: 1px solid black;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logotype-flag {
+  float: left;
+  width: 100px;
+  height: 62px;
+}
+
+.logotype-text {
+  border: 1px solid green;
+  display: table;
+  padding-left: 8px;
+}
+
+.logotype-company {
+  position: relative;
+  top: -10px;
+  float: left;
+  border: 1px solid red;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.logotype-url {
+  position: absolute;
+  bottom: -7px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 1.9em;
+}
