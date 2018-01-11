@@ -1,0 +1,7 @@
+.churches {
+  list-style-type: circle;
+}
+
+.churches li {
+  cursor: pointer;
+}
