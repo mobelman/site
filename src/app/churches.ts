@@ -3,12 +3,60 @@ import { Church } from './church';
 export const CHURCHES: Church[] = [
   {
     id: 1,
-    name: 'Pingstkyrkan',
-    location: 'Bjärnum'
+    name: 'Baptistkyrkan',
+    location: 'Motala',
+    description: `Till Baptistkyrkan levererade vi X och Y i material Z.`,
+    url: 'http://www.motalabaptist.se/',
+    images: []
   },
   {
     id: 2,
-    name: 'Filadelfiakyrkan',
-    location: 'Stockholm'
+    name: 'Bergaortens Missionsförsamling',
+    location: 'Sundet, Lagan',
+    description: 'Till Bergaortens Missionsförsamling levererade vi kopplingsbara kyrkbänkar utan sidogavlar.',
+    url: 'http://bergamission.se/',
+    images: [
+      {
+        path: 'assets/church/sundet/bergaortens-missionsforsamling/1.jpg',
+        description: 'Test1'
+      },
+      {
+        path: 'assets/church/sundet/bergaortens-missionsforsamling/2.jpg',
+        description: 'Test2'
+      },
+      {
+        path: 'assets/church/sundet/bergaortens-missionsforsamling/3.jpg',
+        description: 'Test3'
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: 'Borgenkyrkan',
+    location: 'Tierp',
+    description: `Till Borgenkyrkan levererade vi X och Y i material Z.`,
+    url: 'http://www.borgenkyrkan.se/',
+    images: []
+  },
+  {
+    id: 4,
+    name: 'Equmeniakyrkan',
+    location: 'Vårgårda',
+    description: 'Till Equmeniakyrkan levererade vi kopplingsbara kyrkbänkar i ask.',
+    url: 'http://equmeniakyrkan.se/vargarda/',
+    images: [
+      {
+        path: 'assets/church/vargarda/equmeniakyrkan/1.jpg',
+        description: 'Test1'
+      },
+      {
+        path: 'assets/church/vargarda/equmeniakyrkan/2.jpg',
+        description: 'Test2'
+      },
+      {
+        path: 'assets/church/vargarda/equmeniakyrkan/3.jpg',
+        description: 'Test3'
+      }
+    ]
   }
 ];

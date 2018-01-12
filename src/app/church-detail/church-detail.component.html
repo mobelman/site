@@ -1,6 +1,16 @@
+<h2>
+  {{church.name}}, {{church.location}}
+</h2>
+
 <p>
-  church-detail works!
-  {{church.id}}
-  {{church.name}}
-  {{church.location}}
+  {{church.description}}
 </p>
+
+<div *ngFor="let image of church.images">
+  <img class="churchimage" src="{{image.path}}">
+  <p>
+    {{image.description}}
+  </p>
+</div>
+
+<a href="{{church.url}}" target="_blank">{{church.url}}</a>
