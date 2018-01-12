@@ -11,7 +11,7 @@ import {RequestInfoComponent} from './request-info/request-info.component';
 const routes: Routes = [
   {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
   {path: 'churches', component: ChurchesComponent},
-  {path: 'church-detail/:id', component: ChurchDetailComponent},
+  {path: 'church-detail/:location/:name', component: ChurchDetailComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'lego-production', component: LegoProductionComponent},
   {path: 'private-products', component: PrivateProductsComponent},

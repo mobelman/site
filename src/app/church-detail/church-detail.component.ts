@@ -19,7 +19,9 @@ export class ChurchDetailComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const id = +this.route.snapshot.paramMap.get('id');
-    this.church = CHURCHES.find(church => church.id === id);
+    /* URL router links generated with parts set to lower case; make sure to match against lower case variant. */
+    const location = this.route.snapshot.paramMap.get('location');
+    const name = this.route.snapshot.paramMap.get('name');
+    this.church = CHURCHES.find(church => church.location.toLowerCase() === location && church.name.toLowerCase() === name);
   }
 }
