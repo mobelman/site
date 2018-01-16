@@ -1,15 +1,15 @@
 import {Component, OnInit} from '@angular/core';
-import {Church} from '../church';
 import {ActivatedRoute} from '@angular/router';
 import {Location} from '@angular/common';
-import {CHURCHES} from '../churches';
+import {Church} from '../shared/church.model';
+import {CHURCHES} from '../shared/churches';
 
 @Component({
-  selector: 'app-church-detail',
-  templateUrl: './church-detail.component.html',
-  styleUrls: ['./church-detail.component.css']
+  selector: 'app-church',
+  templateUrl: './church.component.html',
+  styleUrls: ['./church.component.css']
 })
-export class ChurchDetailComponent implements OnInit {
+export class ChurchComponent implements OnInit {
 
   church: Church;
 

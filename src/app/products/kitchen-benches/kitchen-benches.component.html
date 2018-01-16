@@ -4,7 +4,7 @@
 </p>
 <ul class="kitchen-benches">
   <li *ngFor="let kitchenBench of kitchenBenches">
-    <a routerLink="/kitchen-bench-detail/{{kitchenBench.id}}">
+    <a routerLink="/kitchen-benches/{{kitchenBench.id}}">
       <img src="{{kitchenBench.images[0].path}}">
     </a>
   </li>

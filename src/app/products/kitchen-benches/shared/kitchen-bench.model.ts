@@ -1,4 +1,4 @@
-import {ImageWithMetadata} from './imagewithmetadata';
+import {ImageWithMetadata} from '../../../shared/image-with-metadata.model';
 
 export class KitchenBench {
   id: number;

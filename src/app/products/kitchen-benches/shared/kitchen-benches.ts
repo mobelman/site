@@ -1,4 +1,4 @@
-import {KitchenBench} from './kitchen-bench';
+import {KitchenBench} from './kitchen-bench.model';
 
 export const KITCHEN_BENCHES: KitchenBench[] = [
   {
@@ -8,7 +8,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/korsnaes_lb.jpg',
+        path: 'assets/kitchen-benches/korsnaes_lb.jpg',
         description: ''
       }
     ]
@@ -20,7 +20,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 164 cm / 184 cm, sitthöjd 47 cm, djup 56 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/korsnaes_oe.jpg',
+        path: 'assets/kitchen-benches/korsnaes_oe.jpg',
         description: ''
       }
     ]
@@ -32,7 +32,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/anna_lf.jpg',
+        path: 'assets/kitchen-benches/anna_lf.jpg',
         description: ''
       }
     ]
@@ -44,7 +44,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 166 cm / 185 cm / 204 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/anna_sf.jpg',
+        path: 'assets/kitchen-benches/anna_sf.jpg',
         description: ''
       }
     ]
@@ -56,7 +56,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 162 cm / 200 cm (bäddbar), sitthöjd 47 cm, djup 55 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/malin_lf.jpg',
+        path: 'assets/kitchen-benches/malin_lf.jpg',
         description: ''
       }
     ]
@@ -68,7 +68,7 @@ export const KITCHEN_BENCHES: KitchenBench[] = [
     details: 'Längd 180 cm / 215 cm, sitthöjd 45 cm, djup 55 cm.',
     images: [
       {
-        path:  'assets/kitchenbench/dalsjoe_sf.jpg',
+        path: 'assets/kitchen-benches/dalsjoe_sf.jpg',
         description: ''
       }
     ]

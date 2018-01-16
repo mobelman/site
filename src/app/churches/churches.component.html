@@ -1,7 +1,7 @@
 <h2>Kyrkor</h2>
 <ul class="churches">
   <li *ngFor="let church of churches">
-    <a routerLink="/church-detail/{{church.location.toLowerCase()}}/{{church.name.toLowerCase()}}">
+    <a routerLink="/churches/{{church.location.toLowerCase()}}/{{church.name.toLowerCase()}}">
       {{church.name}}, {{church.location}}
     </a>
   </li>

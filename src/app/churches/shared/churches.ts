@@ -1,4 +1,4 @@
-import {Church} from './church';
+import {Church} from './church.model';
 
 export const CHURCHES: Church[] = [
   {
@@ -17,15 +17,15 @@ export const CHURCHES: Church[] = [
     url: 'http://bergamission.se/',
     images: [
       {
-        path: 'assets/church/sundet/bergaortens-missionsforsamling/1.jpg',
+        path: 'assets/churches/sundet/bergaortens-missionsforsamling/1.jpg',
         description: 'Test1'
       },
       {
-        path: 'assets/church/sundet/bergaortens-missionsforsamling/2.jpg',
+        path: 'assets/churches/sundet/bergaortens-missionsforsamling/2.jpg',
         description: 'Test2'
       },
       {
-        path: 'assets/church/sundet/bergaortens-missionsforsamling/3.jpg',
+        path: 'assets/churches/sundet/bergaortens-missionsforsamling/3.jpg',
         description: 'Test3'
       }
     ]
@@ -46,15 +46,15 @@ export const CHURCHES: Church[] = [
     url: 'http://equmeniakyrkan.se/vargarda/',
     images: [
       {
-        path: 'assets/church/vargarda/equmeniakyrkan/1.jpg',
+        path: 'assets/churches/vargarda/equmeniakyrkan/1.jpg',
         description: 'Test1'
       },
       {
-        path: 'assets/church/vargarda/equmeniakyrkan/2.jpg',
+        path: 'assets/churches/vargarda/equmeniakyrkan/2.jpg',
         description: 'Test2'
       },
       {
-        path: 'assets/church/vargarda/equmeniakyrkan/3.jpg',
+        path: 'assets/churches/vargarda/equmeniakyrkan/3.jpg',
         description: 'Test3'
       }
     ]

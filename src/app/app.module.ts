@@ -1,28 +1,28 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { ChurchesComponent } from './churches/churches.component';
-import { ChurchDetailComponent } from './church-detail/church-detail.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { PublicProductsComponent } from './public-products/public-products.component';
-import { PrivateProductsComponent } from './private-products/private-products.component';
-import { LegoProductionComponent } from './lego-production/lego-production.component';
-import { RequestInfoComponent } from './request-info/request-info.component';
-import { KitchenBenchDetailComponent } from './kitchen-bench-detail/kitchen-bench-detail.component';
+import {AppComponent} from './app.component';
+import {ChurchesComponent} from './churches/churches.component';
+import {AppRoutingModule} from './/app-routing.module';
+import {DashboardComponent} from './dashboard/dashboard.component';
+import {ProductionComponent} from './production/production.component';
+import {RequestInfoComponent} from './request-info/request-info.component';
+import {KitchenBenchComponent} from './products/kitchen-benches/kitchen-bench/kitchen-bench.component';
+import {ProductsComponent} from './products/products.component';
+import {KitchenBenchesComponent} from './products/kitchen-benches/kitchen-benches.component';
+import {ChurchComponent} from './churches/church/church.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChurchesComponent,
-    ChurchDetailComponent,
+    ChurchComponent ,
     DashboardComponent,
-    PublicProductsComponent,
-    PrivateProductsComponent,
-    LegoProductionComponent,
+    ProductsComponent,
+    ProductionComponent,
     RequestInfoComponent,
-    KitchenBenchDetailComponent
+    KitchenBenchesComponent,
+    KitchenBenchComponent
   ],
   imports: [
     BrowserModule,
@@ -31,4 +31,5 @@ import { KitchenBenchDetailComponent } from './kitchen-bench-detail/kitchen-benc
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

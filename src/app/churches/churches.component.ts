@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CHURCHES } from '../churches';
+import { CHURCHES } from './shared/churches';
 
 @Component({
   selector: 'app-churches',
