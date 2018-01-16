@@ -7,12 +7,14 @@ import {PrivateProductsComponent} from './private-products/private-products.comp
 import {PublicProductsComponent} from './public-products/public-products.component';
 import {LegoProductionComponent} from './lego-production/lego-production.component';
 import {RequestInfoComponent} from './request-info/request-info.component';
+import {KitchenBenchDetailComponent} from './kitchen-bench-detail/kitchen-bench-detail.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
   {path: 'churches', component: ChurchesComponent},
   {path: 'church-detail/:location/:name', component: ChurchDetailComponent},
   {path: 'dashboard', component: DashboardComponent},
+  {path: 'kitchen-bench-detail/:id', component: KitchenBenchDetailComponent},
   {path: 'lego-production', component: LegoProductionComponent},
   {path: 'private-products', component: PrivateProductsComponent},
   {path: 'public-products', component: PublicProductsComponent},

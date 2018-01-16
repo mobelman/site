@@ -10,6 +10,7 @@ import { PublicProductsComponent } from './public-products/public-products.compo
 import { PrivateProductsComponent } from './private-products/private-products.component';
 import { LegoProductionComponent } from './lego-production/lego-production.component';
 import { RequestInfoComponent } from './request-info/request-info.component';
+import { KitchenBenchDetailComponent } from './kitchen-bench-detail/kitchen-bench-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RequestInfoComponent } from './request-info/request-info.component';
     PublicProductsComponent,
     PrivateProductsComponent,
     LegoProductionComponent,
-    RequestInfoComponent
+    RequestInfoComponent,
+    KitchenBenchDetailComponent
   ],
   imports: [
     BrowserModule,

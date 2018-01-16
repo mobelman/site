@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {KITCHEN_BENCHES} from '../kitchen-benches';
 
 @Component({
   selector: 'app-private-products',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivateProductsComponent implements OnInit {
 
-  constructor() { }
+  kitchenBenches = KITCHEN_BENCHES;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
-
 }

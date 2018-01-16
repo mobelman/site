@@ -1,3 +1,11 @@
+<h2>Kökssoffor</h2>
 <p>
-  private-products works!
+  Kökssoffor tillverkade i utvalt massivt trä med inslag av detaljerat finsnickeriarbete är en möbelprodukt vi har valt att sälja via möbelbutiker över hela landet.
 </p>
+<ul class="kitchen-benches">
+  <li *ngFor="let kitchenBench of kitchenBenches">
+    <a routerLink="/kitchen-bench-detail/{{kitchenBench.id}}">
+      <img src="{{kitchenBench.images[0].path}}">
+    </a>
+  </li>
+</ul>
