@@ -12,6 +12,9 @@ import {ProductsComponent} from './products/products.component';
 import {KitchenBenchesComponent} from './products/kitchen-benches/kitchen-benches.component';
 import {ChurchComponent} from './churches/church/church.component';
 import {FooterComponent} from './shared/footer/footer.component';
+import {ConferenceProductsComponent} from './products/conference-products/conference-products.component';
+import { ConferenceProductComponent } from './products/conference-products/conference-product/conference-product.component';
+import { ChurchProductsComponent } from './products/church-products/church-products.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import {FooterComponent} from './shared/footer/footer.component';
     RequestInfoComponent,
     KitchenBenchesComponent,
     KitchenBenchComponent,
-    FooterComponent
+    FooterComponent,
+    ConferenceProductsComponent,
+    ConferenceProductComponent,
+    ChurchProductsComponent
   ],
   imports: [
     BrowserModule,

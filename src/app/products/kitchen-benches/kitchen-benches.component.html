@@ -5,7 +5,7 @@
 <div *ngIf="kitchenBenches && kitchenBenches.length; else noKitchenBenches">
 <ul class="kitchen-benches">
   <li *ngFor="let kitchenBench of kitchenBenches">
-    <a routerLink="/kitchen-benches/{{kitchenBench.id}}">
+    <a routerLink="/products/kitchen-benches/{{kitchenBench.id}}">
       <img src="{{kitchenBench.images[0].path}}">
     </a>
   </li>
