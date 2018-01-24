@@ -15,6 +15,7 @@ import {FooterComponent} from './shared/footer/footer.component';
 import {ConferenceProductsComponent} from './products/conference-products/conference-products.component';
 import { ConferenceProductComponent } from './products/conference-products/conference-product/conference-product.component';
 import { ChurchProductsComponent } from './products/church-products/church-products.component';
+import { ChurchProductComponent } from './products/church-products/church-product/church-product.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ChurchProductsComponent } from './products/church-products/church-produ
     FooterComponent,
     ConferenceProductsComponent,
     ConferenceProductComponent,
-    ChurchProductsComponent
+    ChurchProductsComponent,
+    ChurchProductComponent
   ],
   imports: [
     BrowserModule,

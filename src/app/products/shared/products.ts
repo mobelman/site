@@ -128,5 +128,33 @@ export const PRODUCTS: Product[] = [
         description: ''
       }
     ]
+  },
+  {
+    id: 10,
+    product: 'Kyrkbänk',
+    description: '',
+    details: '',
+    images: [
+      {
+        path: 'assets/churches/sundet/bergaortens-missionsforsamling/1.jpg',
+        description: ''
+      },
+      {
+        path: 'assets/churches/vargarda/equmeniakyrkan/2.jpg',
+        description: ''
+      }
+    ]
+  },
+  {
+    id: 11,
+    product: 'Altarbord i lackerad ek',
+    description: 'Exempel på ett altarbord tillverkat i lackerad ek.',
+    details: '',
+    images: [
+      {
+        path: 'assets/products/church-products/altarbord-i-lackerad-ek-001.jpg',
+        description: ''
+      }
+    ]
   }
 ];
