@@ -2,6 +2,7 @@
 <p>
   Kökssoffor tillverkade i utvalt massivt trä med inslag av detaljerat finsnickeriarbete är en möbelprodukt vi har valt att sälja via möbelbutiker över hela landet.
 </p>
+<div *ngIf="kitchenBenches && kitchenBenches.length; else noKitchenBenches">
 <ul class="kitchen-benches">
   <li *ngFor="let kitchenBench of kitchenBenches">
     <a routerLink="/kitchen-benches/{{kitchenBench.id}}">
@@ -9,3 +10,10 @@
     </a>
   </li>
 </ul>
+</div>
+
+<ng-template #noKitchenBenches>
+  <p>
+    Produktlistan tom.
+  </p>
+</ng-template>
