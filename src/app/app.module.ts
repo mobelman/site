@@ -11,18 +11,20 @@ import {KitchenBenchComponent} from './products/kitchen-benches/kitchen-bench/ki
 import {ProductsComponent} from './products/products.component';
 import {KitchenBenchesComponent} from './products/kitchen-benches/kitchen-benches.component';
 import {ChurchComponent} from './churches/church/church.component';
+import {FooterComponent} from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChurchesComponent,
-    ChurchComponent ,
+    ChurchComponent,
     DashboardComponent,
     ProductsComponent,
     ProductionComponent,
     RequestInfoComponent,
     KitchenBenchesComponent,
-    KitchenBenchComponent
+    KitchenBenchComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
