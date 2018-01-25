@@ -1,0 +1,17 @@
+<h2>Kyrkor</h2>
+
+<div *ngIf="churches && churches.length; else noChurches">
+  <ul class="churches">
+    <li *ngFor="let church of churches">
+      <a routerLink="/churches/{{church.location.toLowerCase()}}/{{church.name.toLowerCase()}}">
+        {{church.name}}, {{church.location}}
+      </a>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noChurches>
+  <p>
+    Referenslistan tom.
+  </p>
+</ng-template>

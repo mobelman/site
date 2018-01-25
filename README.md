@@ -1,27 +1,25 @@
-# Site
+## pre-req; enable cli deployment to github pages
+* `npm i -g angular-cli-ghpages`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+## build for production; incl correct base href
+* `ng build --prod --base-href https://mobelman.github.io/site/`
+* `ng build --prod --base-href http://www.screamingtitans.com/site/`
 
-## Development server
+## deploy to github pages
+* `ngh`
+* `ngh -S`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## access via
+* https://mobelman.github.io
+* https://mobelman.github.io/site
+* http://screamingtitans.com
+* http://screamingtitans.com/site
+* http://www.screamingtitans.com
+* http://www.screamingtitans.com/site
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## misc
+* https://pages.github.com/
+* https://www.npmjs.com/package/gh-pages
+* https://coursetro.com/posts/code/64/How-to-Deploy-an-Angular-App-(Angular-4)
+* https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
+* https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/

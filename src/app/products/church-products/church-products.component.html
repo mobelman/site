@@ -1,0 +1,21 @@
+<h2>Kyrka</h2>
+<p>
+  Med mer än fyrtio års samlad erfarenhet som leverantör inom offentlig inredning och specialsnickerier till kyrkor
+  (tillverkning av kyrkbänkar, altar, etc) har vi ett unikt hantverkskunnande och en mycket hög kompetens inom området.
+  Att få agera leverantör till en kyrka är något vi uppskattar.
+</p>
+<div *ngIf="churchProducts && churchProducts.length; else noChurchProducts">
+  <ul class="church-products">
+    <li *ngFor="let churchProduct of churchProducts">
+      <a routerLink="/products/church-products/{{churchProduct.id}}">
+        <img src="{{churchProduct.images[0].path}}">
+      </a>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noChurchProducts>
+  <p>
+    Produktlistan tom.
+  </p>
+</ng-template>

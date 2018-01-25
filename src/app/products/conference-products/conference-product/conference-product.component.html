@@ -1,0 +1,27 @@
+<div *ngIf="conferenceProduct">
+  <h2>
+    {{conferenceProduct.product}}
+  </h2>
+
+  <p>
+    {{conferenceProduct.description}}
+  </p>
+
+  <div *ngFor="let image of conferenceProduct.images">
+    <img class="conferenceproductimage" src="{{image.path}}">
+    <p>
+      {{image.description}}
+    </p>
+  </div>
+
+  <p>
+    {{conferenceProduct.details}}
+  </p>
+</div>
+
+<p>
+  Med mer än fyrtio års samlad erfarenhet som leverantör inom offentlig inredning och specialsnickerier har vi ett unikt
+  hantverkskunnande inom området.
+</p>
+
+<app-footer></app-footer>

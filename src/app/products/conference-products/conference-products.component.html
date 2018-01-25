@@ -1,0 +1,19 @@
+<h2>Konferens</h2>
+<p>
+  AV-möbler för konferens och presentation.
+</p>
+<div *ngIf="conferenceProducts && conferenceProducts.length; else noConferenceProducts">
+  <ul class="conference-products">
+    <li *ngFor="let conferenceProduct of conferenceProducts">
+      <a routerLink="/products/conference-products/{{conferenceProduct.id}}">
+        <img src="{{conferenceProduct.images[0].path}}">
+      </a>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noConferenceProducts>
+  <p>
+    Produktlistan tom.
+  </p>
+</ng-template>
