@@ -1,14 +1,15 @@
-<div style="text-align:center">
-  <a routerLink="/dashboard">
-    <img class="logotype" alt="Möbelman Logo" src="assets/mobelman-logotype.png">
-  </a>
+<div class="content">
+  <div style="text-align:center">
+    <a routerLink="/dashboard">
+      <img class="logotype" alt="Möbelman Logo" src="assets/mobelman-logotype.png">
+    </a>
+  </div>
+  <nav>
+    <a routerLink="/dashboard">Hem</a>
+    <a routerLink="/products">Produkter</a>
+    <a routerLink="/churches">Kyrkomiljö</a>
+    <a routerLink="/production">Legotillverkning</a>
+    <a routerLink="/request-info">Kontakt</a>
+  </nav>
+  <router-outlet></router-outlet>
 </div>
-<nav>
-  <a routerLink="/dashboard">Hem</a>
-  <a routerLink="/products">Produkter</a>
-  <a routerLink="/churches">Kyrkomiljö</a>
-  <a routerLink="/production">Legotillverkning</a>
-  <a routerLink="/request-info">Kontakt</a>
-</nav>
-<router-outlet></router-outlet>
-
