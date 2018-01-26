@@ -7,8 +7,8 @@
     {{kitchenBench.description}}
   </p>
 
-  <div *ngFor="let image of kitchenBench.images">
-    <img class="kitchenbenchimage" src="{{image.path}}">
+  <div *ngFor="let image of kitchenBench.images" class="product">
+    <img src="{{image.path}}">
     <p>
       {{image.description}}
     </p>

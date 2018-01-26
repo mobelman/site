@@ -5,13 +5,11 @@
   Att få agera leverantör till en kyrka är något vi uppskattar.
 </p>
 <div *ngIf="churchProducts && churchProducts.length; else noChurchProducts">
-  <ul class="church-products">
-    <li *ngFor="let churchProduct of churchProducts">
-      <a routerLink="/products/church-products/{{churchProduct.id}}">
-        <img src="{{churchProduct.images[0].path}}">
-      </a>
-    </li>
-  </ul>
+  <div *ngFor="let churchProduct of churchProducts" class="product">
+    <a routerLink="/products/church-products/{{churchProduct.id}}">
+      <img src="{{churchProduct.images[0].path}}">
+    </a>
+  </div>
 </div>
 
 <ng-template #noChurchProducts>
