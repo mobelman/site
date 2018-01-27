@@ -1,0 +1,26 @@
+<div *ngIf="privateProduct">
+  <h2>
+    {{privateProduct.product}}
+  </h2>
+
+  <p>
+    {{privateProduct.description}}
+  </p>
+
+  <div *ngFor="let image of privateProduct.images" class="product">
+    <img src="{{image.path}}">
+    <p>
+      {{image.description}}
+    </p>
+  </div>
+
+  <p>
+    {{privateProduct.details}}
+  </p>
+
+  <p>
+    Kökssoffor tillverkade i utvalt massivt trä med inslag av detaljerat finsnickeriarbete är en möbelprodukt vi har
+    valt att sälja via möbelbutiker över hela landet. Naturligtvis hjälper vi Er att hitta närmsta återförsäljare -
+    använd formuläret så kontaktar vi Er inom kort.
+  </p>
+</div>

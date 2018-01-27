@@ -1,0 +1,17 @@
+<h2>Produkter för privat miljö</h2>
+<p>
+  Kökssoffor tillverkade i utvalt massivt trä med inslag av detaljerat finsnickeriarbete är en möbelprodukt vi har valt att sälja via möbelbutiker över hela landet.
+</p>
+<div *ngIf="privateProducts && privateProducts.length; else noPrivateProducts">
+  <div *ngFor="let privateProduct of privateProducts" class="product">
+    <a routerLink="/private/products/{{privateProduct.id}}">
+      <img src="{{privateProduct.images[0].path}}">
+    </a>
+  </div>
+</div>
+
+<ng-template #noPrivateProducts>
+  <p>
+    Produktlistan tom.
+  </p>
+</ng-template>

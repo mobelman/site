@@ -3,15 +3,23 @@ body {
 }
 
 .product img {
-  width: 90%;
+  width: 95%;
   display: block;
   margin: 0 auto;
   padding: 10px 10px 10px 10px;
 }
 
 .church img {
-  width: 90%;
+  width: 95%;
   display: block;
   margin: 0 auto;
   padding: 10px 10px 10px 10px;
+}
+
+.map {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  border: 0;
 }
