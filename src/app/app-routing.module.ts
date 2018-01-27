@@ -1,26 +1,28 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {ChurchesComponent} from './churches/churches.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {ChurchComponent} from './churches/church/church.component';
 import {ProductionComponent} from './production/production.component';
-import {RequestInfoComponent} from './request-info/request-info.component';
-import {KitchenBenchComponent} from './products/kitchen-benches/kitchen-bench/kitchen-bench.component';
-import {ProductsComponent} from './products/products.component';
-import {ConferenceProductComponent} from './products/conference-products/conference-product/conference-product.component';
-import {ChurchProductComponent} from './products/church-products/church-product/church-product.component';
+import {ContactComponent} from './contact/contact.component';
+import {PublicProductsComponent} from './public-products/public-products.component';
+import {PublicProductComponent} from './public-products/public-product/public-product.component';
+import {PublicChurchProductsComponent} from './public-church-products/public-church-products.component';
+import {PublicChurchProductComponent} from './public-church-products/public-church-product/public-church-product.component';
+import {PrivateProductsComponent} from './private-products/private-products.component';
+import {PrivateProductComponent} from './private-products/private-product/private-product.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
-  {path: 'churches', component: ChurchesComponent},
   {path: 'churches/:location/:name', component: ChurchComponent},
+  {path: 'contact', component: ContactComponent},
   {path: 'dashboard', component: DashboardComponent},
-  {path: 'products/church-products/:id', component: ChurchProductComponent},
-  {path: 'products/conference-products/:id', component: ConferenceProductComponent},
-  {path: 'products/kitchen-benches/:id', component: KitchenBenchComponent},
-  {path: 'production', component: ProductionComponent},
-  {path: 'products', component: ProductsComponent},
-  {path: 'request-info', component: RequestInfoComponent}
+  {path: 'private/products', component: PrivateProductsComponent},
+  {path: 'private/products/:id', component: PrivateProductComponent},
+  {path: 'public/products', component: PublicProductsComponent},
+  {path: 'public/products/:id', component: PublicProductComponent},
+  {path: 'public/church/products', component: PublicChurchProductsComponent},
+  {path: 'public/church/products/:id', component: PublicChurchProductComponent},
+  {path: 'production', component: ProductionComponent}
 ];
 
 @NgModule({

@@ -235,14 +235,6 @@ export const CHURCHES: Church[] = [
   {
     id: 16,
     name: 'Pingstkyrkan',
-    location: 'Lund',
-    description: '',
-    url: 'http://www.pklund.se/',
-    images: []
-  },
-  {
-    id: 17,
-    name: 'Pingstkyrkan',
     location: 'Strängnäs',
     description: 'Till Pingstkyrkan levererade vi kopplingsbara kyrkbänkar utan sidogavlar.',
     url: 'http://www.pingststrangnas.se/',
@@ -266,7 +258,7 @@ export const CHURCHES: Church[] = [
     ]
   },
   {
-    id: 18,
+    id: 17,
     name: 'Pingstkyrkan',
     location: 'Tomelilla',
     description: '',
@@ -274,7 +266,7 @@ export const CHURCHES: Church[] = [
     images: []
   },
   {
-    id: 19,
+    id: 18,
     name: 'Pingstkyrkan',
     location: 'Värnamo',
     description: '',
@@ -282,7 +274,7 @@ export const CHURCHES: Church[] = [
     images: []
   },
   {
-    id: 20,
+    id: 19,
     name: 'Ryttargårdskyrkan',
     location: 'Linköping',
     description: 'Till Ryttargårdskyrkan levererade vi kyrkbänkar med sidogavlar.',
@@ -315,7 +307,7 @@ export const CHURCHES: Church[] = [
     ]
   },
   {
-    id: 21,
+    id: 20,
     name: 'Sionförsamlingen',
     location: 'Fotö',
     description: '',
@@ -323,7 +315,7 @@ export const CHURCHES: Church[] = [
     images: []
   },
   {
-    id: 22,
+    id: 21,
     name: 'Skäggetorps kyrka',
     location: 'Linköping',
     description: 'Till Skäggetorps kyrka levererade vi kopplingsbara kyrkbänkar med sidogavlar.',
