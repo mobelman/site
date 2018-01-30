@@ -1,0 +1,12 @@
+.product-examples {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.product-examples img {
+  width: 48.5%;
+  min-width: 290px;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+  float: left;
+}

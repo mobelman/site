@@ -4,6 +4,7 @@
       <a routerLink="/churches/{{church.location.toLowerCase()}}/{{church.name.toLowerCase()}}">
         {{church.name}}, {{church.location}}
       </a>
+      <img *ngIf="church.images.length > 0" src="assets/ic_camera_alt_black_24px.svg">
     </li>
   </ul>
 </div>
