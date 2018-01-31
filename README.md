@@ -3,7 +3,7 @@
 
 ## build for production; incl correct base href
 * `ng build --prod --base-href https://mobelman.github.io/site/`
-* `ng build --prod --base-href http://www.screamingtitans.com/site/`
+* `ng build --prod --base-href http://www.mobelman.com/site/`
 
 ## deploy to github pages
 * `ngh`
@@ -12,10 +12,10 @@
 ## access via
 * https://mobelman.github.io
 * https://mobelman.github.io/site
-* http://screamingtitans.com
-* http://screamingtitans.com/site
-* http://www.screamingtitans.com
-* http://www.screamingtitans.com/site
+* http://mobelman.com
+* http://mobelman.com/site
+* http://www.mobelman.com
+* http://www.mobelman.com/site
 
 ## misc
 * https://pages.github.com/

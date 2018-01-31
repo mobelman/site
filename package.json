@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod --base-href http://www.screamingtitans.com/site/",
+    "build:prod": "ng build --prod --base-href http://www.mobelman.com/site/",
     "deploy:prod": "ngh -S"
   },
   "private": true,
