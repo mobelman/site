@@ -1,5 +1,3 @@
 TODO Fix routing so that movement to a new route puts user on top of page.
 
 TODO Add more church references and fix church texts and images.
-
-TODO Add Google Analytics.
