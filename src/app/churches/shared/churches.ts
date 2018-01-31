@@ -5,7 +5,7 @@ export const CHURCHES: Church[] = [
     id: 1,
     name: 'Baptistkyrkan',
     location: 'Motala',
-    description: `Till Baptistkyrkan levererade vi X och Y i material Z.`,
+    description: ``,
     url: 'http://www.motalabaptist.se/',
     images: []
   },
@@ -34,7 +34,7 @@ export const CHURCHES: Church[] = [
     id: 3,
     name: 'Borgenkyrkan',
     location: 'Tierp',
-    description: `Till Borgenkyrkan levererade vi X och Y i material Z.`,
+    description: ``,
     url: 'http://www.borgenkyrkan.se/',
     images: []
   },
