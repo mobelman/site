@@ -13,16 +13,17 @@ import {PrivateProductComponent} from './private-products/private-product/privat
 
 const routes: Routes = [
   {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
+  {path: '**', redirectTo: '/dashboard', pathMatch: 'full'},
   {path: 'churches/:location/:name', component: ChurchComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'private/products', component: PrivateProductsComponent},
   {path: 'private/products/:id', component: PrivateProductComponent},
-  {path: 'public/products', component: PublicProductsComponent},
-  {path: 'public/products/:id', component: PublicProductComponent},
+  {path: 'production', component: ProductionComponent},
   {path: 'public/church/products', component: PublicChurchProductsComponent},
   {path: 'public/church/products/:id', component: PublicChurchProductComponent},
-  {path: 'production', component: ProductionComponent}
+  {path: 'public/products', component: PublicProductsComponent},
+  {path: 'public/products/:id', component: PublicProductComponent}
 ];
 
 @NgModule({

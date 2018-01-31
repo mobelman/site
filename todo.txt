@@ -1,7 +1,3 @@
-TODO Fix church product texts - e.g. benches should have more text and possibly more images.
-
-TODO Fix 404 to handle dead links when moving to github pages.
-
 TODO Turn on Google Sheets email notification when everything has been set up.
 
 TODO Add more church references and fix church texts and images.
