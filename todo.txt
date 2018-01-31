@@ -1,3 +1,5 @@
+TODO Fix new variant of Google Analytics to function with SPA app - existing tutorials only cover older GA variant.
+
 TODO Fix routing so that movement to a new route puts user on top of page.
 
 TODO Add more church references and fix church texts and images.
