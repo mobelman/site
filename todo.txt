@@ -1,4 +1,4 @@
-TODO Turn on Google Sheets email notification when everything has been set up.
+TODO Fix routing so that movement to a new route puts user on top of page.
 
 TODO Add more church references and fix church texts and images.
 
