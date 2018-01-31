@@ -12,8 +12,6 @@ import {PrivateProductsComponent} from './private-products/private-products.comp
 import {PrivateProductComponent} from './private-products/private-product/private-product.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
-  {path: '**', redirectTo: '/dashboard', pathMatch: 'full'},
   {path: 'churches/:location/:name', component: ChurchComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'dashboard', component: DashboardComponent},
@@ -23,7 +21,9 @@ const routes: Routes = [
   {path: 'public/church/products', component: PublicChurchProductsComponent},
   {path: 'public/church/products/:id', component: PublicChurchProductComponent},
   {path: 'public/products', component: PublicProductsComponent},
-  {path: 'public/products/:id', component: PublicProductComponent}
+  {path: 'public/products/:id', component: PublicProductComponent},
+  {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
+  {path: '**', redirectTo: '/dashboard'}
 ];
 
 @NgModule({
