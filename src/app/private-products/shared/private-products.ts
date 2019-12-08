@@ -7,5 +7,4 @@ export const PRIVATE_PRODUCTS: PrivateProduct[] = [
   PRODUCTS[2],
   PRODUCTS[3],
   PRODUCTS[4],
-  PRODUCTS[5],
 ];
