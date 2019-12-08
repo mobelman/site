@@ -1,13 +1,8 @@
 ## pre-req; enable cli deployment to github pages
 * `npm i -g angular-cli-ghpages`
 
-## build for production; incl correct base href
-* `ng build --prod --base-href https://mobelman.github.io/site/`
-* `ng build --prod --base-href http://www.mobelman.com/site/`
-
-## deploy to github pages
-* `ngh`
-* `ngh -S`
+## build for production; for deployment on remote server
+* `ng build --prod`
 
 ## access via
 * https://mobelman.github.io
